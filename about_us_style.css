@@ -1,0 +1,250 @@
+*
+{
+    margin: 0px;
+    border: 0px;
+}
+body
+{
+    margin: 0px;
+    border: 0px;
+    font-family: "poppins", Sans-serif;
+    background: white;
+}
+.topmarginred
+{
+    background: linear-gradient(to right, #8d0000,#e60000);
+    margin-bottom: 40px;
+}
+
+.nav
+{
+    float: top;
+}
+.first
+{
+    float: left;
+    margin-left: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 21%;
+    word-spacing: 11px;
+}
+.first a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+
+.second
+{
+    float: right;
+    margin-right: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    width: 19%;
+    word-spacing: 11px;
+}
+.second a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+
+.name
+{
+    font-size: 25px; 
+    color: rgb(177, 71, 0); 
+    letter-spacing: 2.5px;
+    
+}
+
+.leftbook
+{
+    position: absolute;
+    
+    padding-top: 200px;
+    padding-left: 60px;
+    margin-left: 0px;
+}
+
+
+.rightbook
+{
+    position: absolute;
+    right: 5px;
+    //float: right;
+    padding-top: 210px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.texthead
+{
+    padding-top: 100px;
+}
+.textbody
+{
+    padding-top: 90px;
+    padding-left: 430px;
+    color:rgb(77, 77, 77);
+    line-height: 1.5;
+}
+.textbody img
+{
+    padding-left: 100px;
+}
+.footofhead
+{
+    padding-left: 200px;
+    padding-top: 40px;
+    padding-right: 200px;
+    font-size: 17px;
+    color:rgb(94, 94, 94);
+    font-family: Arial Narrow, sans-serif;
+    letter-spacing: 1.3px;
+    line-height: 1.3;
+}
+
+.reviews
+{
+    margin-top: 70px;
+    background: rgba(163, 149, 124, 0.17);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    padding-top: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 70px;
+    color:rgb(77, 77, 77);
+    letter-spacing: 1.4px;
+    text-align: justify;
+}
+
+.team
+{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 450px;
+    //float: left;
+    color: #5c5c5c;
+    font-size: 17px;
+    font-family: Arial Narrow, sans-serif;
+    letter-spacing: 1.4px;
+    line-height: 1.4;
+    text-align: justify;
+    background: white;
+}
+
+.stillhere
+{
+    
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: rgb(194, 57, 57);
+    color: white;
+    font-size: 35px;
+}
+
+.stillhere button
+{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(194, 57, 57);
+    background: white;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s ease;
+}
+.stillhere button:hover
+{
+    background: rgb(255, 219, 219);
+    transition: 0.3s ease;
+}
+
+/*.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+    letter-spacing: -0.9px;
+    outline: none;
+  }
+  .dropdown-content {
+      font-family: Arial Narrow, Helvetica, sans-serif;
+    display: none;
+    position: absolute;
+    top: 35px;
+    background-color: rgba(163, 149, 124, 0.17);
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff; color: gray;}
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }*/
+
+  .dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(163, 149, 124, 0.17);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff; color: gray; transition: 0.3s ease}

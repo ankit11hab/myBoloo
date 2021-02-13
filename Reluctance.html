@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quotes</title>
+    <link rel = "stylesheet" href = "calc_style.css">
+  </head>
+  <body>
+    <div class="head">
+      <span class="logo"
+        ><span style="font-size: 22px; font-family: cursive">BOLOO</span></span
+      ><br />
+      <h2 style="font-size: 28px">Reluctance Calculator</h2>
+      <span style="font-size: 18px"></span>
+    </div>
+
+    <!-- Header -->
+
+    <div class="form">
+      <div class="backgr">
+        <!-- Main Form Started -->
+        <div class="firstpart">
+          <label for="Length"><b>Length(in cm):</b><span style="color: red">*</span></label><br />
+          <input type="text" placeholder="Enter the length of core/gap" id="Length"/><br />
+
+          <label for="Area"><b>Area(in cm*cm):</b><span style="color: red">*</span></label><br />
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="sec">
+          <div class="secondpart">
+            <input type="text" placeholder="Enter the area" id="Area" /><br />
+            <label for="Permeability"><b>Relative Permeability:<span style="color: red">*</span></b></lab><br />
+            <input type="text" placeholder="Enter the value" id="Permeability"/><br />
+
+            <!-- Submit Button -->
+            <center>
+              <button class="submit" onclick="getValue()">
+                <span style="font-size: 18px">Submit</span>
+              </button>
+            </center>
+            <br />
+            <center><b>Reluctance = </b><span id = "1"></span></center>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src = "reluctance.js"></script>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quotes</title>
+    <link rel = "stylesheet" href = "calc_style.css">
+  </head>
+  <body>
+    <div class="head">
+      <span class="logo"
+        ><span style="font-size: 22px; font-family: cursive">BOLOO</span></span><br />
+      <h2 style="font-size: 28px">Binary to Gray code converter</h2>
+      <span style="font-size: 18px"></span>
+    </div>
+
+    <!-- Header -->
+
+    <div class="form">
+      <div class="backgr">
+        <!-- Main Form Started -->
+        <div class="firstpart">
+          <label for="Length"><b>Enter Minterms(m):</b></label><br />
+          <input type="text" placeholder="eg:- 1,2,6,7," id="input_1"/><br />
+          <label for="Length"><b>Enter Maxterms(M):</b></label><br />
+
+          
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="sec">
+          <div class="secondpart">
+            <input type="text" placeholder="eg:- 0,3,4,5," id="input_2"/><br />
+            <!-- Submit Button -->
+            <center>
+              <button class="submit" onclick="getValue()">
+                <span style="font-size: 18px">Submit</span>
+              </button>
+            </center>
+            <br />
+            <center>Sum of product <b>(SOP): </b><span id = "1"></span></center>
+            <center>Product of sum <b>(POS): </b><span id = "10"></span></center><br><br>
+
+          <div style = "position:absolute; top: 670px; left: 400px">
+            <b>A B</b>
+          </div>
+          <div style = "position: absolute; top: 640px; left: 460px">
+            <b>C</b>
+          </div>
+          
+
+            <table style="width:15%; float: left;margin-left: 150px; margin-top: 82px;">
+              <tr>
+                <th><center>00</center></th>
+              </tr>
+              <tr>
+                <th><center>01</center></th>
+              </tr>
+              <tr>
+                <th><center>11</center></th>
+              </tr>
+                <th><center>10</center></th>
+              </tr>
+            </table>
+            <div class = "table">
+              
+              <table style="width:100%">
+                <tr>
+                  <th><center>0</center></th>
+                  <th><center>1</center></th>
+                </tr>
+              </table><br>
+            <table style="width:100%">
+              
+              <tr>
+                <td><center><b><span id = "2"><br></span></b></center></td>
+                <td><center><b><span id = "3"><br></span></b></center></td>
+              </tr>
+              <tr>
+                <td><center><b><span id = "4"><br></span></b></center></td>
+                <td><center><b><span id = "5"><br></span></b></center></td>
+              </tr>
+              <tr>
+                <td><center><b><span id = "8"><br></span></b></center></td>
+                <td><center><b><span id = "9"><br></span></b></center></td>
+              </tr>
+              <tr>
+                <td><center><b><span id = "6"><br></span></b></center></td>
+                <td><center><b><span id = "7"><br></span></b></center></td>
+              </tr>
+            </table>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <script src = "bool.js"></script>
+</html>

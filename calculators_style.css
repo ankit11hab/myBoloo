@@ -1,0 +1,216 @@
+*
+{
+    margin: 0px;
+    border: 0px;
+}
+body
+{
+    margin: 0px;
+    border: 0px;
+    font-family: "poppins", Sans-serif;
+    background: white;
+}
+.topmarginred
+{
+    background: linear-gradient(to right, #e47d17, #ffd700);
+    margin-bottom: 40px;
+}
+
+.nav
+{
+    float: top;
+}
+.first
+{
+    float: left;
+    margin-left: 16px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 21%;
+    word-spacing: 11px;
+}
+.first a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+
+.second
+{
+    float: right;
+    margin-right: 16px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+    width: 19%;
+    word-spacing: 11px;
+}
+.second a
+{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 100%;
+    font-weight: 500;
+    letter-spacing: -0.9px;
+}
+.name
+{
+    font-size: 25px; 
+    color: #e47d17; 
+    letter-spacing: 2.5px;
+    margin-bottom: 0px;
+}
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    padding: 0px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(163, 149, 124, 0.17);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff; color: gray; transition: 0.3s ease}
+
+  .electronic
+  {
+      background-color: rgb(245, 245, 245);
+      color: black;
+      position: relative;
+      padding-left: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: 0px;
+      font-size: 19px;
+  }
+
+  .navbar
+  {
+      margin-right: 70px;
+      padding-top: 30px;
+      float: left;
+      color:rgb(0, 0, 0);
+      border-right: 1px solid rgb(39, 39, 39);
+      height: 800px;
+  }
+  .navbar a{
+      text-decoration: none;
+      line-height: 2;
+      font-size: 16px;
+      color: black;
+      
+  }
+
+  .active
+  {
+      background: rgb(224, 224, 224);
+      padding: 10px;
+      padding-right: 60px;
+  }
+
+  .digcalc
+  {
+      margin: 60px;
+      margin-left: 300px;
+      
+  }
+
+  .block {
+    float: left;
+    -webkit-box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px 1.5px rgba(0, 0, 0, 0.4);
+    margin-right: 60px;
+    background: #fff;
+    padding: 0px;
+    margin-bottom: 60px;
+    transition: transform 0.5s;
+    border-radius: 0px;
+    overflow: hidden;
+    width: 31%;
+  }
+  .portfolios {
+    padding: 20px;
+    padding-left: 50px;
+    margin: 0px;
+  }
+  
+  .portfolios img {
+    transition: transform 0.3s ease;
+    padding: 0px;
+    margin: 0px;
+  }
+  .portfolios img:hover {
+    transform: scale(1.2);
+  }
+  
+  .image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+  .image1 {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: 0.5s ease;
+    backface-visibility: hidden;
+  }
+  .middle {
+    transition: 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .image:hover .image1 {
+    opacity: 0.5;
+  }
+  .image:hover .middle {
+    opacity: 1;
+  }
+  .text8 {
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    font-size: 18px;
+    padding: 5px 5px;
+  }

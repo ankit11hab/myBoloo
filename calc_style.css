@@ -1,0 +1,97 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins", sans-serif;
+  }
+  .backgr {
+    //background: linear-gradient(to right,#164188,#007fed);
+    background: linear-gradient(to right, #e47d17, #ffd700);
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 60px;
+  }
+  .head {
+    padding-left: 200px;
+    padding-top: 60px;
+    padding-right: 200px;
+    background: linear-gradient(to right, #e47d17, #ffd700);
+    //background: #d6840a;
+    color: white;
+  }
+
+  input,
+  textarea {
+    padding: 15px;
+    margin: 10px 20px 25px 0px;
+    outline: none;
+    width: 80%;
+    border: 1px solid #ccc;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+  .firstpart {
+    font-size: 22px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    background: white;
+  }
+  button {
+    outline: none;
+    background: white;
+    border: 1px solid gray;
+    padding: 10px;
+    //border-radius: 50px;
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+
+  button:hover {
+    color: black;
+  }
+
+  .secondpart {
+    font-size: 22px;
+    margin-left: 41px;
+    padding-right: 41px;
+    //padding-top: 40px;
+    background: white;
+    padding-bottom: 40px;
+  }
+  .second {
+    padding-left: 159px;
+    padding-right: 159px;
+    padding-bottom: 159px;
+  }
+  .sec {
+    border-left: 1px solid rgb(228, 228, 228);
+    border-right: 1px solid rgb(228, 228, 228);
+    border-bottom: 1px solid rgb(228, 228, 228);
+  }
+  table, td, th {  
+    border: 1px solid rgb(138, 138, 138);
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .table
+  {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+  th, td {
+    padding: 15px;
+  }
